@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
+body {
+	font-family: Lato;
+	font-size: 14px;
+	color: #777;
+
+
+}
+header{
+	position: absolute;
+	background-color: transparent;
+	width: 100%;
+	top:0;
+}
+
+h1,h2,h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+.supertitulo {
+	padding-top: 10%;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 2%;
+	color: #fff;
+	text-align: left;
+}
+
+.antetitulo {
+	padding-top: 10%;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	color: #b68834;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.titulo {
+	font-size: 35px;
+	font-weight: bold;
+	color: #222;
+	text-align: left;
+
+}
+
+.subtitulo {
+	font-size: 18px;
+	font-weight: 400;
+	color: #222;
+	text-align: left;
+}
+
+.fechas {
+	font-size: 14px;
+	font-weight: bold;
+	color: #222;
+	margin-top: 2%;
+}
+
+.idk {
+	font-size: 25px;
+	font-weight:900;
+	color: #222;
+	margin-top: 2%;
+
+}
+
+/* IDEA: HERO --------- */
+
+#hero {
+	background-image: url(../img/header-bg.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 100%;
+}
+
+.content	{
+	padding-top: 20%;
+}
+.btn-coffee {
+	margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size:10px;
+  font-weight: bold;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 5% 10%;
+  border: 1px solid #777;
+}
+
+.btn-coffee:hover {
+	color: #fff;
+	background-color: #777;
+}
+
+
+
+/* IDEA: about --------- */
+
+#about {
+	margin: 10% 0;
+}
+
+/* IDEA: MENU --------- */
+
+#menu {
+	background-image: url(../img/menu-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+
+}
+
+.menu h2{
+	text-align: center;
+	color: #222222;
+}
+#pie{
+	text-align: center;
+	color: #777777;
+}
+.menu h4{
+	color: #222222;
+	font-weight: bold;
+}
+.menu-item{
+	background-color: #989887;
+	border-radius: 25px;
+	padding: 10px 30px;
+	margin: 5px 3px;
+}
+
+#menu h2 {
+	margin-bottom: 10%;
+}
+
+
+/* IDEA: KIND --------- */
+
+#kind {
+	margin: 10% 0;
+}
+
+#kind h2 {
+	font-weight: lighter;
+}
+
+.kindimg {
+		margin: 5% 0;
+
+}
+
+
+
+/* IDEA: BLOG --------- */
+
+#blog {
+	background-color: #f8f8f8;
+	padding: 10% 0;
+}
+
+#blog h2 {
+	font-weight: lighter;
+
+}
+
+.blogimg {
+	margin-top: 5%;
+}
+
+.btn-blog {
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color:transparent;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1px solid #777;
+}
+
+.btn-blog:hover {
+	color: #fff;
+	background-color: #777;
+}
+
+
+
+/* IDEA: FOOTER --------- */
+
+footer {
+	background-image: url(../img/footer-bg.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 400px;
+
+}
+
+.final {
+	padding: 10%;
+	font-size: 35px;
+	font-weight: light;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+
+}
